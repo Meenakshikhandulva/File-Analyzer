@@ -62,7 +62,7 @@ def load_background_image(image_path):
 st.set_page_config(page_title="File Analysis App", layout="wide")
 
 # Load the background image
-bg_image = load_background_image(r"C:\Users\malat\OneDrive\Desktop\MEENA\guvi\download.jpg")
+bg_image = load_background_image(r"download.jpg")
 
 # Set the CSS style for the background image
 st.markdown(
